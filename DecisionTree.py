@@ -42,6 +42,7 @@ X[:,3] = le_Chol.transform(X[:,3])
 X[0:5]
 
 
+
 # Setting up the Decision Tree
 
 from sklearn.model_selection import train_test_split
