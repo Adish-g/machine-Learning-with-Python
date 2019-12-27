@@ -17,7 +17,7 @@ X as the Feature Matrix (data of my_data)
 y as the response vector (target)
 '''
 
-X = my_data[['Age', 'Sex', 'BP', 'Cholesterol', 'Na_to_K']].values
+X = ma[['Age', 'Sex', 'BP', 'Cholesterol', 'Na_to_K']].values
 X[0:5]
 
 y = ma["Drug"]
@@ -75,8 +75,8 @@ from sklearn import tree
 
 dot_data = StringIO()
 filename = "drugtree.png"
-featureNames = my_data.columns[0:5]
-targetNames = my_data["Drug"].unique().tolist()
+featureNames = ma.columns[0:5]
+targetNames = ma["Drug"].unique().tolist()
 out=tree.export_graphviz(drugTree,feature_names=featureNames, out_file=dot_data, class_names= np.unique(y_trainset), filled=True,  special_characters=True,rotate=False)  
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
 graph.write_png(filename)
