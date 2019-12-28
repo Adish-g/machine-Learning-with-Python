@@ -7,7 +7,7 @@ Some real-world applications of k-means:
 - Understand what the visitors of a website are trying to accomplish
 - Pattern recognition
 - Machine learning
-- Data compressio
+- Data compression
 
 
 In this notebook we practice k-means clustering with 2 examples:
