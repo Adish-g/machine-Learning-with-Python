@@ -16,3 +16,8 @@ df = {'Algorithm': ['KNN', 'Decistion Tree', 'SVM', 'LogisticRegression'], \
 
 Report = pd.DataFrame(data=df, columns=['Algorithm', 'Jaccard', 'F1-score', 'LogLoss'], index=None)
 Report
+
+
+
+Final certificate
+https://www.coursera.org/account/accomplishments/certificate/MV3JNB7TWSXL
